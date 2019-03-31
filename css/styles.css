@@ -1,5 +1,48 @@
+:root {
+  --background-color: #F3EFED;
+  --text-color: #1E1F1A;
+  --text-link: #53B2D6;
+  --text-color-light: #EAEAEA;
+  --ui-01: #DADAD9;
+  --ui-02: #C7C7C6;
+  --ui-03: #8B8B8B;
+  --ui-04: #50504F;
+  --highlight-blue: #0B3954;
+  --highlight-red: #FF6663;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--text-link);
+}
+
 .shamz-readmes--page-body {
   margin-left: 5%;
   margin-right: 5%;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.shamz-readmes--mods-list {
+  max-width: 400px;
+}
+
+.shamz-readmes--mods-list-item {
+  display: block;
+  background-color: var(--ui-01);
+  padding: 16px;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.shamz-readmes--mods-list-item:hover {
+  background-color: var(--highlight-blue);
+  color: var(--text-color-light);
+}
+
+.shamz-readmes--instruction-item {
+  margin-bottom: 8px;
 }
