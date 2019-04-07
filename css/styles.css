@@ -26,11 +26,11 @@ a {
   margin-right: 5%;
 }
 
-.shamz-readmes--mods-list {
-  max-width: 400px;
+.shamz-readmes--menu-list {
+  max-width: 600px;
 }
 
-.shamz-readmes--mods-list-item {
+.shamz-readmes--menu-list-item {
   display: block;
   background-color: var(--ui-01);
   padding: 16px;
@@ -38,7 +38,7 @@ a {
   color: var(--text-color);
 }
 
-.shamz-readmes--mods-list-item:hover {
+.shamz-readmes--menu-list-item:hover {
   background-color: var(--highlight-blue);
   color: var(--text-color-light);
 }
