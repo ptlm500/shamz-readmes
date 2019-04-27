@@ -1,6 +1,6 @@
 # shamz-readmes and races
 
-A github pages sites for the shamz Discord server
+A GitHub pages sites for the Shamz Discord server
 
 # Recommended tooling
 
