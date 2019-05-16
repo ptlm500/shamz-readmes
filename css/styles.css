@@ -46,3 +46,39 @@ a {
 .shamz-readmes--instruction-item {
   margin-bottom: 8px;
 }
+
+.shamz-tier-list--table {
+  width: 100%;
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+.shamz-tier-list--table-body {
+  width: 100%;
+}
+
+.shamz-tier-list--tier-row {
+  width: 100%;
+  background: #1A1A1A;
+  border: solid 2px black;
+}
+
+.shamz-tier-list--item {
+  background-color: #fff;
+  margin: 4px;
+  max-height: 72px;
+  max-width: 120px;
+  width: auto;
+  height: auto;
+}
+
+.shamz-tier-list--tier-header {
+  height: 80px;
+  width: 102px;
+  text-align: center;
+  line-height: 21px;
+}
+
+.shamz-tier-list--item-list {
+  display: flex;
+}
